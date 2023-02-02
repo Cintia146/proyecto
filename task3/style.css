@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+.title-img{
+    background-image: url(./images/design1_image2.jpg);
+    background-repeat: no-repeat;
+    min-height: 300px;
+    min-width: 100px;
+}
+.title-name{
+position: relative;
+left:  100px;
+border-right: 100px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    position:relative ;
+    top: 0;
+    right: 900px;
+    transform: translate(0, 800);
+}
+.box-title{
+    background-color: rgb(16, 70, 145);
+    text-align: center;
+    color: rgb(20, 19, 19);
+    border: 2px solid;
+    font-size: larger;
+    font-family: cursive; 
+    font-style: unset;
+}
+
+.paragraph-text{
+    font-family: cursive;
+}
+
+.link-selected{
+    border: 1px solid rgb(124, 7, 7);
+    padding: 10px;
+    text-decoration:none;
+    color:blue (7, 26, 227);
+    background-color:black (12, 12, 12);
+    box-shadow: 5px 5px 5px;color: rgb(247, 10, 145);
+    border-bottom: 4px;
+}
+
+
+
+
+.a-link{
+    border: 1px solid rgb(124, 7, 7);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(7, 26, 227);
+    background-color:rgb(12, 12, 12);
+    box-shadow: 5px 5px 5px;color: rgb(247, 10, 145);
+    border-bottom: 4px;
+
+}
+
+.section{
+    position: relative;
+    transform: translate(400px, 0);
+}
+
+.left-side{
+    position: relative;
+    float: left;
+    width: 15%;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+.right-side{
+    position: relative;
+    float: right;
+    width: 75%;
+}
